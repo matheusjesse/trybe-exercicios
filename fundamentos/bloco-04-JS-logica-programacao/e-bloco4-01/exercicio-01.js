@@ -50,3 +50,20 @@ if(a > b && a > c){
     {
         console.log("Zero");
     }
+
+// exercicio 05
+
+let anguloUm = 50;
+let angulodois = 70;
+let angulotres = 60;
+
+let somadosangulos = anguloUm + angulodois + angulotres;
+
+if(somadosangulos == 180){
+    console.log(true);
+}else if (somadosangulos != 180){
+    console.log(false);
+}else{
+    console.log("Erro ao calcular angolos!")
+}
+
