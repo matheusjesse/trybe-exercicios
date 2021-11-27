@@ -67,3 +67,35 @@ if(somadosangulos == 180){
     console.log("Erro ao calcular angolos!")
 }
 
+// exercicio 6
+
+function pecadexadrez(peca){   
+
+
+
+    switch(peca.toLowerCase()){
+        case 'rei':
+            console.log("Se move 1 casa em qualquer direção");
+            break;
+        case 'dama':
+            console.log("Se move em qualquer direção, porém quantas casa quiser");
+            break;
+        case 'torre':
+            console.log("Se move em linha reta, tanto na horizontal quanto na vertical");
+            break;
+        case 'bispo':
+            console.log("Se move na diagonal, quantas casas quiser");
+            break;
+        case 'cavalo':
+            console.log("Se move em 'L' conhecido também como 'um-dois'");
+            break;
+        case 'peão':
+            console.log("Se move uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas.");
+            break;
+        default:
+            console.log("Erro, digite uma peça valida!!");
+    }
+   
+}
+
+return pecadexadrez('BisPo');
