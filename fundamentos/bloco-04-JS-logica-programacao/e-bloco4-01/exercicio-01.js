@@ -130,8 +130,25 @@ return notasAlfabeticas(50);
 
 */
 
+//exercicio 08
 
-// exercicio 08
+/*
+
+const num1 = 5;
+const num2 = 12;
+const num3 = 14;
+
+if(num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0){
+    console.log(true);
+}else{
+    console.log(false);
+}
+
+
+*/
+
+
+// exercicio 09
 
 const num1 = 5;
 const num2 = 12;
@@ -142,4 +159,17 @@ if(num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0){
 }else{
     console.log(false);
 }
+
+// exercicio 10
+
+function lucroDoProduto(valorvenda, valorProduto){
+
+    lucro = valorvenda - valorProduto;
+
+    console.log("O valor do lucro na venda de mil produtos é: ", lucro * 1000);
+
+
+}
+
+
 
