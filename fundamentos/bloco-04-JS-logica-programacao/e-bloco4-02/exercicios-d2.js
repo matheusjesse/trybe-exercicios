@@ -18,3 +18,9 @@ console.log(somaArrays);
 let mediaAritimetica = somaArrays / numbers.length;
 
 console.log("Média aritimética: " + mediaAritimetica);
+
+if(mediaAritimetica > 20){
+    console.log("Valor maior que 20!")
+}else{
+    console.log("Valor menor ou igual a 20!")
+}
