@@ -1,0 +1,47 @@
+div:hover {
+    border-style: solid;
+}
+
+div{
+    margin-right: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.primaria{
+    background-color: blue;
+    color: #f7f5f6e3;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-color: darkblue;
+    
+}
+.secundaria{
+    background-color: green;
+    color: #f7f5f6e3;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-color: darkgreen;
+}
+.complementar{
+    background-color:indigo;
+    color: #f7f5f6e3;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-color: yellow;
+    margin-right: 70%;
+}
+.escura{
+    background-color: #6b3008c4;
+    color: #f7f5f6e3;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-color: darkslategray;
+}
+.clara{
+    background-color: rgb(236, 145, 229);
+    color: #f7f5f6e3;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-color: darkmagenta;
+}

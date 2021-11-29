@@ -1,0 +1,64 @@
+ol li{
+    background-color: yellow;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+.ol-par {
+    color: green;
+}
+
+.ol-impar{
+    text-transform: lowercase;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: red;
+}
+
+.header-italic{
+    size: 40px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.li-italic{
+    font-weight: bold;
+}
+
+.blue-font-color{
+    color: blue;
+}
+
+.pink-bgc{
+    background-color: pink;
+}
+
+ul li a:hover{
+    font-weight: bold;
+}
+
+.so-color{
+    color: orange;
+}
+
+.w3s-color{
+    color: green;
+}
+
+.mdn-color{
+    color: black;
+}
+
+.devdocs-color{
+    color: yellow;
+}
+
+.trybe-color{
+    color: green;
+}
