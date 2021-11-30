@@ -51,4 +51,16 @@ if(mediaAritimetica > 20){
     console.log("Numeros Impar " + valoresImpar);
     
 
+    let menorNumero = numbers[0];
+   
+         
+    for(let j = 0; j < numbers.length ; j++){
+        
+        if(numbers[j] <= menorNumero){
+            menorNumero = numbers[j];
+        }
+    }
+
+console.log("menor numero: " + menorNumero);
+
 
