@@ -38,7 +38,17 @@ if(mediaAritimetica > 20){
     console.log("maior numero: " + maiorNumero);
 
 
-    
+    let valoresImpar = [];
+   
+         
+        for(let j = 0; j <numbers.length + 1; j++){
+            
+            if(numbers[j] % 2 != 0){
+                valoresImpar.push(numbers[j]);
+            }
+        }
+
+    console.log("Numeros Impar " + valoresImpar);
     
 
 
