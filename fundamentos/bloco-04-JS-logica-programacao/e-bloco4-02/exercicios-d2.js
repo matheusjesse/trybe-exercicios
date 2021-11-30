@@ -64,3 +64,11 @@ if(mediaAritimetica > 20){
 console.log("menor numero: " + menorNumero);
 
 
+let numerosArray = [];
+
+for(let x = 1; x <= 25; x++){
+        numerosArray.push(x);
+
+}
+
+console.log("Todos numeros do Array: " + numerosArray);
