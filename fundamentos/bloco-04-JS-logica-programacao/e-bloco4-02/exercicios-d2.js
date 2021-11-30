@@ -72,3 +72,9 @@ for(let x = 1; x <= 25; x++){
 }
 
 console.log("Todos numeros do Array: " + numerosArray);
+
+
+for(let p = 0; p < numerosArray.length; p++){
+    let divisao = numerosArray[p] / 2;
+    console.log("Array na posição " + p + " dividido por 2: " + divisao);
+}
