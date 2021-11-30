@@ -21,3 +21,21 @@ for(let y = 0; y < n; y++){
     asterisco2 += '*';
     console.log(asterisco2);
 }
+
+
+//Exercício 3
+
+let asterisco3 = '';
+
+
+for(let linha = 1; linha <= n; linha++){
+       
+    for(let p = n - linha; p >=1; p--){
+        asterisco3 += ' ';        
+    }    
+    for(let r = 0; r < linha; r++){
+        asterisco3 += '*';
+    }
+    console.log(asterisco3);      
+    asterisco3 = '';
+}
