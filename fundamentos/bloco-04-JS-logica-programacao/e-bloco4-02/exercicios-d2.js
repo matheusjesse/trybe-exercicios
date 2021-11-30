@@ -24,3 +24,21 @@ if(mediaAritimetica > 20){
 }else{
     console.log("Valor menor ou igual a 20!")
 }
+
+      let maiorNumero = numbers[0];
+   
+         
+        for(let j = 0; j <numbers.length + 1; j++){
+            
+            if(numbers[j] > maiorNumero){
+                maiorNumero = numbers[j];
+            }
+        }
+
+    console.log("maior numero: " + maiorNumero);
+
+
+    
+    
+
+
