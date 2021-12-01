@@ -39,3 +39,8 @@ for(let linha = 1; linha <= n; linha++){
     console.log(asterisco3);      
     asterisco3 = '';
 }
+
+
+//Exercício 4
+
+
