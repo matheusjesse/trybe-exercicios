@@ -25,3 +25,23 @@ let info = {
       console.log(info[x]);
   }
 
+//E 5
+
+let info2 = {
+    personagem: 'Tio Patinhas',
+    origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+    nota: 'O último MacPatinhas',
+    recorrente: 'Sim',
+}
+
+for(let u in info){
+
+    if(info[u] === 'Sim' && info2[u] === 'Sim'){
+        console.log("Ambos recorrentes")
+        break;
+        }
+    
+    console.log(info[u] + " e " + info2[u]);
+    
+
+}
