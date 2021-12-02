@@ -64,3 +64,13 @@ let leitor = {
 
 
  console.log("O livro favorito de Julia Pessoa se chama: " + leitor.livrosFavoritos[0].titulo);
+
+ //E 7
+
+ leitor.livrosFavoritos[1] = {
+    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+    autor: 'JK Rowling',
+    editor: 'Rocco',
+ }
+
+ 
