@@ -73,4 +73,6 @@ let leitor = {
     editor: 'Rocco',
  }
 
- 
+ //E 8
+
+ console.log("Julia tem " + leitor.livrosFavoritos.length + " livros favoritos.");
