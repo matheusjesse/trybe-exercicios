@@ -84,8 +84,15 @@ centerContentColor();
 
     textoMaior();
  //Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        
+    function exibiConteudoTags(){
+        let conteudoP = document.getElementsByTagName('p');
+        for(let i = 0; i < conteudoP.length; i ++){
+            console.log(conteudoP[i].innerText);
+        }
+    }
     
+    exibiConteudoTags();
+
     </script>
   </body>
 </html>
