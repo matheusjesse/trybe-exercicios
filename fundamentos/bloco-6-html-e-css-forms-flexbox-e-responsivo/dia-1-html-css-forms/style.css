@@ -1,0 +1,10 @@
+.pessoal-input, .ivc-input {
+    width: 100%;
+    margin: 1px 5px;
+}
+
+.dados-pessoais, .info-vaga-candidato{
+    display:flex;
+    margin: 5px;
+}
+
